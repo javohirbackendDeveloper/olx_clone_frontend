@@ -7,9 +7,9 @@ const Index = () => {
     <>
       <div className="register-wrapper">
         <h2 className="register-heading">Sign Up</h2>
-        <form className="register">
+        <form className="register-form">
           <label htmlFor="username"  className="data-input-wrapper">
-            username
+            Username
             <input type="text" name="username" className="data-input" />
           </label>
           <label htmlFor="username" className="data-input-wrapper">
@@ -17,7 +17,7 @@ const Index = () => {
             <input type="text" name="email" className="data-input" />
           </label>
           <label htmlFor="username" className="data-input-wrapper">
-            password
+            Password
             <input type="text" name="password" className="data-input" />
           </label>
           <button type="submit" className="submit-register">
