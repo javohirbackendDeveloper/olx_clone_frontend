@@ -16,6 +16,7 @@
 .login-form{
     gap: 10px;
     padding: 15px;
+    width: 400px;
 }
 
 .data-input-wrapper{
@@ -28,3 +29,15 @@
     width: 100%;
     padding: 6px;
 } 
+
+.data-input{
+    padding: 3px 3px 3px 5px;
+}
+
+@media only screen and (max-width: 540px) {
+    .login-form{
+        gap: 10px;
+        padding: 15px;
+        width: 300px;
+    }
+  }

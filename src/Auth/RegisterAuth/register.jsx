@@ -9,7 +9,7 @@ const Index = () => {
         <h2 className="register-heading">Sign Up</h2>
         <div class="absolute w-72 h-72 bg-white opacity-10 rounded-full -top-10 -left-10"></div>
         <div class="absolute w-96 h-96 bg-white opacity-10 rounded-full -bottom-20 -right-20"></div>
-        <form className="register-form relative bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <form className="register-form relative bg-white p-8 rounded-lg shadow-lg w-full ">
           <label htmlFor="Username" className="data-input-wrapper text-black">
             <p className="text-black cursor-pointer text-sm"> Username</p>
             <input
@@ -39,7 +39,7 @@ const Index = () => {
             <input
               type="text"
               name="Password"
-              className="data-input block w-full px-4 py-2 text-gray-700 
+              className="data-input block w-full p- py-2 text-gray-700 
            bg-white border border-gray-300 rounded-sm
            focus:border-blue-500 focus:ring-blue-500 focus:outline-none focus:ring 
            transition duration-300 ease-in-out
